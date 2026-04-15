@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
-pip install -r requirements.txt
-python manage.py collectstatic --noinput
-python manage.py migrate
-#!/usr/bin/env bash
 set -o errexit
 
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r ecommerce/requirements.txt
 
 python manage.py collectstatic --noinput
 python manage.py migrate
