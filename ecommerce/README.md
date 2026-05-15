@@ -114,4 +114,4 @@ Feel free to extend this project with:
 - Wishlist functionality
 - Product image gallery
 - Coupon codes
-- Email notifications
+- Email notifications.
